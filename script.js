@@ -41,10 +41,12 @@
             else if(generatePinOutput === pinOutput){
                 document.getElementById("matched").style.display = "block";
                 document.getElementById("didn't-matched").style.display = "none";
+                document.getElementById("enter-pin").style.display = "none";
             }
             else if(pinOutput ===''){
                 document.getElementById("enter-pin").style.display = "block";
                 document.getElementById("didn't-matched").style.display = "none";
+                document.getElementById("matched").style.display = "none";
             }
             else{
                 document.getElementById("didn't-matched").style.display = "block";
